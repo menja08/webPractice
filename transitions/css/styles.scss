@@ -1,0 +1,19 @@
+// more scss here
+
+#alphabet {
+
+    display: flex;
+
+    section {
+	background-color: lightblue;
+	border: 1px solid red;
+	width: 100%;
+	text-align: center;
+	margin-top: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	//display: none;
+    }
+    //background-color: lightgreen;
+   // border: 1px solid yellow;
+}

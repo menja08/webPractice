@@ -1,0 +1,12 @@
+#alphabet {
+  display: flex; }
+  #alphabet section {
+    background-color: lightblue;
+    border: 1px solid red;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%; }
+
+/*# sourceMappingURL=styles.css.map */

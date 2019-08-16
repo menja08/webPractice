@@ -1,0 +1,36 @@
+#container {
+  border: 2px solid green;
+  width: 100%;
+  display: flex;
+  margin: auto; }
+  #container img {
+    width: 100%; }
+  #container #videoEnclosure {
+    border: 2px solid lightgreen;
+    width: 50%;
+    display: flex;
+    flex-direction: column; }
+    #container #videoEnclosure iframe {
+      width: 100%;
+      height: 100%; }
+    #container #videoEnclosure img {
+      display: none;
+      width: 10%;
+      border: 1px solid orange;
+      margin-left: 40%;
+      margin-right: 10%; }
+
+#hiddenVideo {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.09); }
+  #hiddenVideo iframe {
+    width: 90%;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 5%; }
+  #hiddenVideo img {
+    margin-left: 40%;
+    width: 5%; }
+
+/*# sourceMappingURL=videoOverlay.css.map */
